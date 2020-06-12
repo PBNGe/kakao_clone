@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/ac15921e7f.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Find | Kakao Clone</title>
   </head>
   <body>
@@ -24,7 +25,7 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">Find</h1>
+        <h1 class="header__title">찾기</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -43,7 +44,7 @@
               <i class="fas fa-qrcode fa-2x"></i>
             </span>
             <span class="header-btn__title">
-              QR Code
+              QR코드
             </span>
           </li>
           <li class="find__header-btn header-btn">
@@ -51,7 +52,7 @@
               <i class="far fa-address-book fa-2x"></i>
             </span>
             <span class="header-btn__title">
-              Add by Contacts
+              주소록 추가
             </span>
           </li>
           <li class="find__header-btn header-btn">
@@ -59,7 +60,7 @@
               <i class="fas fa-info-circle fa-2x"></i>
             </span>
             <span class="header-btn__title">
-              Add by ID
+              ID로 추가
             </span>
           </li>
           <li class="find__header-btn header-btn">
@@ -67,25 +68,25 @@
               <i class="far fa-envelope fa-2x"></i>
             </span>
             <span class="header-btn__title">
-              Invite
+              초대
             </span>
           </li>
         </ul>
       </header>
       <ul class="find__recommended">
         <h5 class="find__title">
-          Recommended friends
+          추천 친구
         </h5>
         <li class="find__friend friend">
           <div class="friend__column">
             <img
-              src="images/hankyu.JPG"
+              src="images/장원영.JPG"
               alt=""
-              class="g-avatar friend__avatar"
+              class="friend__avatar"
             />
             <div class="friend__content">
               <span class="friend__name">
-                Hankyu Park
+                워뇽
               </span>
             </div>
           </div>
@@ -106,12 +107,13 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
           <a href="find.html" class="nav__list-link">
-            <i class="fas fa-search fa-2x"></i>
+            <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
@@ -121,5 +123,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>

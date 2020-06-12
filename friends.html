@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/ac15921e7f.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -24,7 +25,7 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">Friends</h1>
+        <h1 class="header__title">친구</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -37,26 +38,6 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friend__friend friend friend--large">
-          <div class="friend__column">
-            <img
-              src="images/hankyu.JPG"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                Hankyu Park
-              </span>
-              <span class="friend__Status">
-                Hello world!
-              </span>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="friends__plus">
-        <h5 class="friends__plus-title">Plus Friend</h5>
         <div class="friend__friend friend">
           <div class="friend__column">
             <img
@@ -66,34 +47,54 @@
             />
             <div class="friend__content">
               <span class="friend__name">
-                Plus Friend
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <ul class="friends__list">
-        <h5 class="friends__title">Friends 14</h5>
-        <li class="friend__friend friend">
-          <div class="friend__column">
-            <img
-              src="images/hankyu.JPG"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                Hankyu Park
+                한규
               </span>
               <span class="friend__Status">
                 Hello world!
               </span>
             </div>
           </div>
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__plus-title">플러스 친구</h5>
+        <div class="friend__friend friend">
+          <div class="friend__column">
+            <img
+              src="images/plus.jpg"
+              alt=""
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                플러스 친구
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">친구 1</h5>
+        <li class="friend__friend friend">
+          <div class="friend__column">
+            <img
+              src="images/민주.JPG"
+              alt=""
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                ♥민주♥
+              </span>
+              <span class="friend__Status">
+                안녕♥
+              </span>
+            </div>
+          </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>지독하게 - FTISLAND</span>
-              <i class="fas fa play"></i>
+              <span>Fiesta - IZ*ONE</span>
+              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
@@ -103,11 +104,12 @@
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="fas fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
@@ -123,5 +125,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
